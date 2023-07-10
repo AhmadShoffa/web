@@ -5,97 +5,140 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aswamedia - Jasa Pembuatan Aplikasi</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 </head>
 
 <body>
   <header>
-    <nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <div class="logo">
-          <h1>Aswamedia</h1>
+        <a class="navbar-brand" href="#">Aswamedia</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontak</a>
+            </li>
+          </ul>
         </div>
-        <ul class="menu">
-          <li><a href="#services">Layanan</a></li>
-          <li><a href="#portfolio">Portofolio</a></li>
-          <li><a href="#contact">Kontak</a></li>
-        </ul>
       </div>
     </nav>
-    <div class="hero">
+    <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1>Jasa Pembuatan Aplikasi Terbaik</h1>
-        <p>Tim profesional kami siap membantu Anda mengembangkan aplikasi kustom sesuai kebutuhan bisnis Anda.</p>
-        <a href="#contact" class="btn">Hubungi Kami</a>
+        <h1 class="display-4">Jasa Pembuatan Aplikasi Terbaik</h1>
+        <p class="lead">Tim profesional kami siap membantu Anda mengembangkan aplikasi kustom sesuai kebutuhan bisnis
+          Anda.</p>
+        <a href="#contact" class="btn btn-primary btn-lg">Hubungi Kami</a>
       </div>
     </div>
   </header>
 
-  <section id="services">
+  <section id="services" class="py-5">
     <div class="container">
-      <h2>Layanan Kami</h2>
-      <div class="service">
-        <div class="service-icon">
-          <img src="service1.png" alt="Service 1">
+      <h2 class="text-center mb-5">Layanan Kami</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="service1.png" class="card-img-top" alt="Service 1">
+            <div class="card-body">
+              <h3 class="card-title">Aplikasi Mobile</h3>
+              <p class="card-text">Kami mengembangkan aplikasi mobile untuk iOS dan Android dengan desain yang menarik
+                dan fungsionalitas yang kuat.</p>
+            </div>
+          </div>
         </div>
-        <h3>Aplikasi Mobile</h3>
-        <p>Kami mengembangkan aplikasi mobile untuk iOS dan Android dengan desain yang menarik dan fungsionalitas yang kuat.</p>
-      </div>
-      <div class="service">
-        <div class="service-icon">
-          <img src="service2.png" alt="Service 2">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="service2.png" class="card-img-top" alt="Service 2">
+            <div class="card-body">
+              <h3 class="card-title">Aplikasi Web</h3>
+              <p class="card-text">Kami menyediakan solusi pengembangan aplikasi web dengan teknologi terbaru untuk
+                memenuhi kebutuhan bisnis Anda.</p>
+            </div>
+          </div>
         </div>
-        <h3>Aplikasi Web</h3>
-        <p>Kami menyediakan solusi pengembangan aplikasi web dengan teknologi terbaru untuk memenuhi kebutuhan bisnis Anda.</p>
-      </div>
-      <div class="service">
-        <div class="service-icon">
-          <img src="service3.png" alt="Service 3">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="service3.png" class="card-img-top" alt="Service 3">
+            <div class="card-body">
+              <h3 class="card-title">Aplikasi Desktop</h3>
+              <p class="card-text">Kami memiliki keahlian dalam pengembangan aplikasi desktop lintas platform yang
+                responsif dan andal.</p>
+            </div>
+          </div>
         </div>
-        <h3>Aplikasi Desktop</h3>
-        <p>Kami memiliki keahlian dalam pengembangan aplikasi desktop lintas platform yang responsif dan andal.</p>
       </div>
     </div>
   </section>
 
-  <section id="portfolio">
+  <section id="portfolio" class="py-5">
     <div class="container">
-      <h2>Portofolio</h2>
-      <div class="portfolio-item">
-        <img src="project1.png" alt="Project 1">
-        <h3>Project 1</h3>
-        <p>Deskripsi singkat mengenai proyek ini.</p>
-      </div>
-      <div class="portfolio-item">
-        <img src="project2.png" alt="Project 2">
-        <h3>Project 2</h3>
-        <p>Deskripsi singkat mengenai proyek ini.</p>
-      </div>
-      <div class="portfolio-item">
-        <img src="project3.png" alt="Project 3">
-        <h3>Project 3</h3>
-        <p>Deskripsi singkat mengenai proyek ini.</p>
+      <h2 class="text-center mb-5">Portofolio</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="project1.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h3 class="card-title">Project 1</h3>
+              <p class="card-text">Deskripsi singkat mengenai proyek ini.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="project2.png" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h3 class="card-title">Project 2</h3>
+              <p class="card-text">Deskripsi singkat mengenai proyek ini.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="project3.png" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h3 class="card-title">Project 3</h3>
+              <p class="card-text">Deskripsi singkat mengenai proyek ini.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="py-5 bg-light">
     <div class="container">
-      <h2>Hubungi Kami</h2>
+      <h2 class="text-center mb-5">Hubungi Kami</h2>
       <form>
-        <input type="text" name="name" placeholder="Nama Anda" required>
-        <input type="email" name="email" placeholder="Email Anda" required>
-        <textarea name="message" placeholder="Pesan Anda" required></textarea>
-        <button type="submit">Kirim</button>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Nama Anda" required>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Email Anda" required>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" rows="5" placeholder="Pesan Anda" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Kirim</button>
       </form>
     </div>
   </section>
 
-  <footer>
+  <footer class="py-3 bg-dark text-white text-center">
     <div class="container">
       <p>&copy; 2023 Aswamedia. All rights reserved.</p>
     </div>
   </footer>
-</body>
 
-</html>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.
